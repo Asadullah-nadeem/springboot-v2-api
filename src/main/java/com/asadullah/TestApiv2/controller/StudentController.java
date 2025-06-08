@@ -25,7 +25,7 @@ public class StudentController {
       return serveicService.getStudentList();
   }
 
-  @GetMapping("/api/v2/course/{name}")
+  @GetMapping("/course/{name}")
   public List<Student> getByCourse(@PathVariable String name){
     return StudentService.getStudentsByCourse(name);
   }
