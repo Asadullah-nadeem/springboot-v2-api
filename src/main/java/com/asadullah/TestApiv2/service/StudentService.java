@@ -9,9 +9,9 @@ import com.asadullah.TestApiv2.model.Student;
 public class StudentService{
 
   private final static List<Student> StudentList = new ArrayList<>(List.of(
-    new Student(1, "Asadullah",20, "Java"),
-    new Student(2, "Nadeem",20 ,"spring framework"),
-    new Student(3, "Muhammad", 20,"Spring Boot")
+    new Student(1, "Asadullah",20, "Java","I love Java"),
+    new Student(2, "Nadeem",20 ,"spring framework", "I love springframework"),
+    new Student(3, "Muhammad", 20,"Spring Boot", "I love Spring Boot")
   ));
 
 

@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController
-@RequestMapping("/api/V2/")
+@RequestMapping("/api/")
 public class StudentController {
 
 
